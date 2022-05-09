@@ -1,0 +1,191 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+/*font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;*/
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+  }   
+#logo{
+position: absolute;
+top: 50px;
+left: 170px;
+  }   
+header{ 
+    width: 110%;
+    height: 650px;
+    background-image: url(images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  } 
+  .li {
+   width:85px ;
+   height: 30px;
+   padding: 0px 40px 40px 40px;
+   text-align: center;
+  } 
+#menusuperior{
+    color: white;
+    margin-left: 880px;
+    position: absolute;
+    top: 25px;
+}
+#imgprincipal{
+    width: 100%;
+    padding-top: -80px;
+}
+
+.realidadvirtual{
+   width: 650px;
+   height: 600px;
+   font-size: 40px;
+   position: absolute;
+   top: 990px;
+   left:735px ;
+   background-color: #ffffff;
+   z-index: 2;
+   
+}
+h2 {   
+    width: 400px;
+    height: 100px;
+    margin: 120px 100px 0 100px;
+    text-transform: uppercase;}
+
+#vrimg{
+    width: 740px;
+    height: 500px;
+    position: absolute;
+    top: 800px;
+    left:166px ;
+    z-index: 1;
+}
+.vr{
+    width: 460px;
+    height: 100px;
+    font-size: 15px;
+    color: hsl(0, 0%, 41%);
+    margin: 20px 100px 0 100px;
+    line-height: 30px;
+
+ }
+ button{
+    width: 160px;
+    height: 40px;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    text-transform: uppercase;
+    border-color: black;
+    margin: 180px 0 0 350px;
+
+ }
+a {
+font-family: 'Alata', sans-serif;
+color: #ffffff;
+font-size: 15px; 
+font-weight: bolder;
+ }
+ h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 40px; 
+    font-weight: normal;
+     }
+
+  li {
+    display: inline;
+  }
+.banner{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:50px ;
+    line-height: 50px;
+    color: aliceblue;
+    font-weight: 10;
+    width: 650;
+    height: auto;
+    padding: 40px 100px 50px 30px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;    
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    text-transform: uppercase;
+}
+.galeriamenu{
+    width: 1440px;
+    height: 1250px;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+#caratulas{
+    width: 1120px;
+    height: 940px;
+    position: absolute;
+    top: 1600px;
+    margin:85px 165px 190px 148px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#caratulas img{
+padding:30px;
+}
+.galeriamenu h2{
+    position: absolute;
+    top: 1500px;
+    left:1px ;
+}
+.ff{
+    width: 1500px;
+    height: 160px;
+    background-color: black;
+}
+.pie{
+    position: absolute;
+    top: 2860px; 
+    left: -10px;
+}
+.icon{
+
+    padding: 8px;
+
+}
+#iconos {
+    width: 180px;
+    height: 40px;    
+margin: -80px 0 0  1200px;
+
+}
+#logopie{
+    padding: 40px 0 0 180px;
+}
+.menuinferior a{
+    padding: 20px;
+
+}
+.menuinferior {
+    padding: 20px 0 0 160px;
+
+}
+.derechos {
+    padding: 20px 0 0 160px;
+    color: hsl(0, 0%, 55%);
+        position: absolute;
+        top: 2935px; 
+        left: 910px;
+}
